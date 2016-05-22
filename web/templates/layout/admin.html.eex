@@ -29,16 +29,6 @@
         <span class="logo"></span>
       </header>
 
-      <div class="banner">
-
-        <div class="banner-callout">
-          <h2>- Software Engineer -</h2>
-          <p> Elixir | JavaScript | Elm</p>
-          <p>λ</p>
-        </div>
-
-      </div>
-
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
 

@@ -9,7 +9,7 @@ h1, h2, h3, h4 {
   letter-spacing: 2px;
 }
 
-a { text-decoration: none; }
+a { text-decoration: none; &:visited { color: black;} }
 
 body {
   background-color: #fcfcfc;
@@ -161,6 +161,10 @@ nav {
   border-radius: 2px;
   position: relative;
   margin-bottom: 50px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 footer {
